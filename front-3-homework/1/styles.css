@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #222;
+    padding: 14px 40px;
+    color: white;
+}
+
+.brand {
+    font-size: 18px;
+    margin-right: 25px;
+}
+
+.menu {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.menu .active {
+    opacity: 1;
+    border-bottom: 2px solid white;
+}
+
+.right input {
+    padding: 6px 10px;
+    margin-right: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.signin {
+    padding: 6px 14px;
+    border: none;
+    border-radius: 4px;
+    background: #5cb85c;
+    color: white;
+    cursor: pointer;
+}
+
+.hero {
+    background: #eee;
+    margin: 40px;
+    padding: 40px;
+    border-radius: 6px;
+}
+
+.hero h1 {
+    font-size: 46px;
+    margin-top: 0;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.learn-btn {
+    padding: 10px 22px;
+    font-size: 18px;
+    border: none;
+    background: #0b76e0;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.columns {
+    display: flex;
+    gap: 30px;
+    padding: 0 40px;
+    margin-bottom: 50px;
+}
+
+.col {
+    flex: 1;
+}
+
+.col h2 {
+    font-size: 26px;
+}
+
+.col p {
+    color: #555;
+    font-size: 16px;
+}
+
+.details-btn {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background: #f8f8f8;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+footer {
+    border-top: 1px solid #ddd;
+    padding: 30px 40px;
+    color: #555;
+}
